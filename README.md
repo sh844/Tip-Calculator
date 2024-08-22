@@ -1,1 +1,1 @@
-# Tip-Calculator made using HTML,CSS and JavaScript
+# Tip-Calculator using HTML,CSS and JavaScript
