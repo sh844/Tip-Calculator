@@ -1,2 +1,1 @@
-# Tip-Calculator
-# Skills - HTML,CSS and JavaScript
+# Tip-Calculator made using HTML,CSS and JavaScript
