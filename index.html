@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--- page metadat -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tip calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--Main body of the page -->
+
+  <form>
+    <h1 style="text-align: center;">Tip Calculator</h1>
+
+    <label for="bill">Bill Amount</label>
+    <input type="number" id="bill" value=""><br><br>
+    <label for="number" class="noofpeople">Number of people</label>
+    <input type="number" id="number"><br><br>
+    <button class="calculate">Calculate</button>
+
+    <button class="refresh">Refresh</button>
+
+    <br><br>
+
+    <label for="tip" class="tip" hidden>Tip</label>
+    <input type="text" hidden><br><br>
+    <label for="perpersoncost" class="perpersoncost" hidden>Per person cost</label>
+    <input type="text" hidden>
+  </form>
+  <p style="text-align: center;font-size: 23px;">It calculates 10% of the bill amount</p>
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+</body>
+
+</html>
